@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration</title>
+    <link rel="stylesheet" href="styles/registration-style.css">
+</head>
+<body style="background-color: #f3f3f3" onload="set_date()">
+
+<div class="registration-container">
+    <h2 style="text-align: center; color: #5e6b79; padding-top: 20px">REGISTRATION</h2>
+    <input type="text" placeholder="Email" class="registration-input" id="email" required>
+    <br>
+    <input type="password" placeholder="Password" class="registration-input" id="pass1" onkeyup="check_password_strength()" required>
+    <h4 class="registration-text" style="margin-top: 5px" id="password-strength">Strength: </h4>
+    <br>
+    <input type="password" placeholder="Confirm password" class="registration-input" id="pass2" required>
+    <br>
+    <div class="registration-input-container">
+        <input type="text" placeholder="Name" class="registration-input" style="margin-right: 15px">
+        <input type="text" placeholder="Lastname" class="registration-input">
+    </div>
+    <br>
+    <div class="registration-input-container">
+        <input type="text" placeholder="Country" class="registration-input" style="margin-right: 15px">
+        <input type="text" placeholder="City" class="registration-input">
+    </div>
+    <br>
+    <input type="text" placeholder="Phone number" class="registration-input">
+    <h4 class="registration-text" style="margin-top: 5px" id="registration-date" onload="set_date()">Registration date: </h4>
+    <br>
+    <button class="registration-button" onclick="register()" id="register-button"><b>Register</b></button>
+</div>
+
+<script src="scripts/registration-script.js"></script>
+</body>
+</html>

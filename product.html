@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product</title>
+    <link rel="stylesheet" href="styles/product-style.css">
+    <link rel="stylesheet" href="styles/registration-style.css">
+</head>
+<body>
+<div class="main-container-1">
+    <div class="sub-container-1-1">
+        <div class="product-image"><img src="images/hoodie.png"></div>
+    </div>
+    <div class="sub-container-1-2">
+        <div class="product-info">
+            <h2 class="text" style="margin-top: 15px">product name</h2>
+            <h4 class="text">status:</h4>
+            <h4 class="text">rating:</h4>
+            <h1 class="text" style="margin-bottom: 15px">99.99$</h1>
+            <button class="registration-button" style="width: 100%;">add to cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="main-container-2">
+    <div class="sub-container-2-1">
+        <button class="button" style="border-radius: 15px 0px 0px 0px" onclick="show_info()">information</button>
+        <button class="button" style="border-radius: 0px 15px 0px 0px" onclick="show_images()">images</button>
+    </div>
+    <div class="sub-container-2-2" id="info"></div>
+</div>
+
+<script src="scripts/product-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+div {
+    border-radius: 15px;
+}
+
+.main-container-1 {
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 1200px;
+    height: 130px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.main-container-1 .sub-container-1-1, .sub-container-1-2, .sub-container-1-3 {
+    background-color: lightsteelblue;
+    min-height: 100px;
+}
+.sub-container-1-1 {
+    margin: 15px;
+    margin-left: 30px;
+    position: relative;
+    text-align: center;
+}
+.sub-container-1-2 {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.sub-container-1-3 {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.myshop {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-weight: bold;
+}
+#search{
+    margin: 0 auto;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #cdd8ee;
+    border: solid 2px #414141;
+    padding-left: 15px;
+}
+#search-button{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 35px;
+    background-color: #cdd8ee;
+}
+
+
+.main-container-2{
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.main-container-2 .sub-container-2-1, .sub-container-2-2, .sub-container-2-3{
+    background-color: #cdd8ee;
+    height: 320px;
+    margin: 15px;
+}
+.sub-container-2-1{
+    width: 250px;
+}
+.sub-container-2-2{
+    width: 600px;
+}
+.sub-container-2-3{
+    width: 250px;
+    color: #f3f3f3;
+    font-size: 100px;
+    align-content: center;
+}
+
+.menu-button{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    background-color: #94a3bc;
+    color: white;
+    border: solid 2px #414141;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-color: #94a3bc;
+    color: white;
+    border: solid 2px #414141;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.main-container-3{
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px;
+    min-height: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.product-container{
+    height: 320px;
+    width: 210px;
+    background-color: #cdd8ee;
+    margin: 10px;
+    border: solid 2px #414141;
+}
+.product-info{
+    height: 200px;
+    width: 180px;
+    margin: auto;
+    margin-top: 15px;
+}
+.product-image{
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #f3f3f3;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.main-container-4{
+    width: 100%;
+    background-color: #5e6b79;
+    height: 300px;
+    border-radius: 0px;
+    padding-top: 40px;
+    /*padding-left: 200px;*/
+    /*padding-right: 200px;*/
+}
+.information-container{
+    width: 1100px;
+    height: 100%;
+    /*background-color: #94a3bc;*/
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.sub-container-4-1{
+    height: 100%;
+    width: 750px;
+    /*background-color: #cdd8ee;*/
+}
+.sub-container-4-2{
+    height: 100%;
+    width: 300px;
+    /*background-color: #cdd8ee;*/
+}
+
+@media only screen and (max-width: 800px){
+    .main-container-1{
+        width: 100%;
+    }
+    .main-container-2{
+        width: 100%;
+        min-height: 350px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .main-container-3{
+        width: 100%;
+    }
+    .main-container-4{
+        min-height: 300px;
+    }
+    .information-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .sub-container-4-1{
+        width: 100%;
+    }
+    .sub-container-4-2{
+        min-height: 50px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+
+/*ადაპტირებულია კომპიუტერისა და ტაბლეტის ეკრანებზე*/
